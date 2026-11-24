@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 860" width="1280" height="860"><title>Diagrama de clases del diario de restaurantes</title><rect width="1280" height="860" fill="#fafafa"/><g font-family="Arial,sans-serif" fill="#142f46">
+<text x="36" y="49" font-size="32" font-weight="700">Diario de restaurantes</text>
+<text x="36" y="80" font-size="17" font-weight="400">Diagrama de clases  ·  Las líneas representan asociaciones. Las referencias de retorno se indican en las cajas.</text>
+<path d="M314 180H347 M633 180H666 M490 230V280H171V315 M490 280V315 M490 280H809V315 M490 280H1128V315" fill="none" stroke="#42677c" stroke-width="2"/>
+<rect x="28" y="130" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M28 163h286" stroke="#a2b4be"/>
+<text x="38" y="153" font-size="17" font-weight="700">Diario</text>
+<text x="38" y="183" font-size="14" font-weight="400">Extiende Object</text>
+<text x="38" y="203" font-size="14" font-weight="400">restaurantes → 0..* Restaurante</text>
+<rect x="347" y="130" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M347 163h286" stroke="#a2b4be"/>
+<text x="357" y="153" font-size="17" font-weight="700">VentanaPrincipal</text>
+<text x="357" y="183" font-size="14" font-weight="400">Extiende JFrame</text>
+<text x="357" y="203" font-size="14" font-weight="400">mundo → Diario</text>
+<text x="357" y="221" font-size="14" font-weight="400">ventanas secundarias → 0..1 de cada una</text>
+<rect x="666" y="130" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M666 163h286" stroke="#a2b4be"/>
+<text x="676" y="153" font-size="17" font-weight="700">VentanaMapa</text>
+<text x="676" y="183" font-size="14" font-weight="400">Extiende JFrame</text>
+<text x="676" y="203" font-size="14" font-weight="400">Implementa ActionListener</text>
+<text x="676" y="221" font-size="14" font-weight="400">ventanaPrincipal → VentanaPrincipal</text>
+<path d="M171 230V246H16V550H28 M809 230V250H978V550H985" fill="none" stroke="#42677c" stroke-width="2"/>
+<rect x="28" y="315" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M28 348h286" stroke="#a2b4be"/>
+<text x="38" y="338" font-size="17" font-weight="700">PanelBotones</text>
+<text x="38" y="368" font-size="14" font-weight="400">Extiende JPanel</text>
+<text x="38" y="388" font-size="14" font-weight="400">Implementa ActionListener</text>
+<text x="38" y="406" font-size="14" font-weight="400">ventanaPrincipal → VentanaPrincipal</text>
+<rect x="347" y="315" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M347 348h286" stroke="#a2b4be"/>
+<text x="357" y="338" font-size="17" font-weight="700">PanelLista</text>
+<text x="357" y="368" font-size="14" font-weight="400">Extiende JPanel</text>
+<text x="357" y="388" font-size="14" font-weight="400">Implementa ListSelectionListener</text>
+<text x="357" y="406" font-size="14" font-weight="400">ventanaPrincipal → VentanaPrincipal</text>
+<rect x="666" y="315" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M666 348h286" stroke="#a2b4be"/>
+<text x="676" y="338" font-size="17" font-weight="700">PanelDetallesRestaurante</text>
+<text x="676" y="368" font-size="14" font-weight="400">Extiende JPanel</text>
+<text x="676" y="388" font-size="14" font-weight="400">Muestra los datos de un Restaurante</text>
+<rect x="985" y="315" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M985 348h286" stroke="#a2b4be"/>
+<text x="995" y="338" font-size="17" font-weight="700">VentanaAgregarRestaurante</text>
+<text x="995" y="368" font-size="14" font-weight="400">Extiende JFrame</text>
+<text x="995" y="388" font-size="14" font-weight="400">ventanaPrincipal → VentanaPrincipal</text>
+<rect x="28" y="500" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M28 533h286" stroke="#a2b4be"/>
+<text x="38" y="523" font-size="17" font-weight="700">Restaurante</text>
+<text x="38" y="553" font-size="14" font-weight="400">Extiende Object</text>
+<text x="38" y="573" font-size="14" font-weight="400">nombre, calificación, coordenadas</text>
+<text x="38" y="591" font-size="14" font-weight="400">visitado</text>
+<rect x="985" y="500" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M985 533h286" stroke="#a2b4be"/>
+<text x="995" y="523" font-size="17" font-weight="700">PanelMapaVisualizar</text>
+<text x="995" y="553" font-size="14" font-weight="400">Extiende JPanel</text>
+<text x="995" y="573" font-size="14" font-weight="400">restaurantes → 0..* Restaurante</text>
+<path d="M1248 415V460H1268V480H1276V644H171V685 M490 644V685 M809 644V685" fill="none" stroke="#42677c" stroke-width="2"/>
+<rect x="28" y="685" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M28 718h286" stroke="#a2b4be"/>
+<text x="38" y="708" font-size="17" font-weight="700">PanelMapaAgregar</text>
+<text x="38" y="738" font-size="14" font-weight="400">Extiende JPanel</text>
+<text x="38" y="758" font-size="14" font-weight="400">Implementa MouseListener</text>
+<rect x="347" y="685" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M347 718h286" stroke="#a2b4be"/>
+<text x="357" y="708" font-size="17" font-weight="700">PanelEditarRestaurante</text>
+<text x="357" y="738" font-size="14" font-weight="400">Extiende JPanel</text>
+<rect x="666" y="685" width="286" height="100" rx="5" fill="white" stroke="#42677c"/><path d="M666 718h286" stroke="#a2b4be"/>
+<text x="676" y="708" font-size="17" font-weight="700">PanelBotonesAgregar</text>
+<text x="676" y="738" font-size="14" font-weight="400">Extiende JPanel</text>
+<text x="676" y="758" font-size="14" font-weight="400">Implementa ActionListener</text>
+<text x="676" y="776" font-size="14" font-weight="400">ventanaPrincipal → VentanaAgregarRestaurante</text>
+<text x="36" y="828" font-size="16" font-weight="400">PanelLista mantiene un modelo de lista con 0..* Restaurante. PanelDetallesRestaurante recibe el seleccionado como parámetro.</text>
+</g></svg>
